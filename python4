@@ -1,0 +1,13 @@
+# vamos criar uma função dados(), a qual
+# pede o nome e a idade do usuário
+
+def dados(nome, idade=None):
+    print(nome)
+
+    if (idade is not None):
+        print(f"a sua idade é: {idade}")
+    else:
+        print("idade não informada")
+
+
+dados("Lucas", 18)
